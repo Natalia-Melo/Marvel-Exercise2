@@ -23,4 +23,3 @@ r = requests.get('http://gateway.marvel.com/v1/public/characters' + '?' +'name='
 r_json = r.json()
 
 results = r_json['data']['results']
-
